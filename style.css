@@ -1,0 +1,22 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+ul li {
+    width: 300px;
+    background-color: #e7e7e7;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+ul li:hover {
+    text-decoration: line-through;
+}
+
+.done {
+    text-decoration: line-through;
+}
