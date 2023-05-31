@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Modulo 10 | Plugins jQuery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div class="container">
+            <form>
+                <div id="div_nome">
+                    <label for="nome">Nome completo: </label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+                <div id="div_email">
+                    <label for="email">E-mail: </label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div id="input_pqn">
+                    <div id="div_tel">
+                        <label for="tel">Telefone: </label>
+                        <input type="tel" id="tel" name="tel" placeholder="(XX) X.XXXX-XXXX">
+                    </div>
+                    <div id="div_CPF">
+                        <label for="CPF">CPF: </label>
+                        <input type="text" id="CPF" name="CPF" placeholder="123.456.789-10">
+                    </div>
+                    <div id="div_CEP">
+                        <label for="CEP">CEP: </label>
+                        <input type="text" id="CEP" name="CEP" placeholder="00.000-000">
+                    </div>
+                </div>
+                <div id="div_end">
+                    <label for="end">Endereço: </label>
+                    <input type="text" id="end" name="end">
+                </div>
+                <div id="div_btn">
+                    <button type="submit">Salvar</button>
+                    <button type="reset">Limpar Campos</button>
+                </div>
+            </form>
+        </div>
+        <div class="container" id="contatos">
+            <!-- <div class="contato">
+                <h2>João de Barro</h2>
+                <div>
+                    <p>E-mail: <output>joão_de_barro@passaro.com</output></p>
+                    <p>Telefone: <output>(00) 0.0000-0000</output></p>
+                    <p>CPF: <output>123.456.789-10</output></p>
+                    <p>CEP: <output>00.000-000</output></p>
+                    <p>End.: <output>Rua Sobe e Desce, N. 0</output></p>
+                </div>
+            </div> -->
+        </div>
+    </main>
+    <script src="./JS/jquery-3.7.0.min.js"></script>
+    <!-- Plugin de máscara de inputs -->
+    <script src="./JS/jquery.mask.min.js"></script>
+    <!-- plugin de validação -->
+    <script src="./JS/jquery.validate.min.js"></script>
+    <script src="./JS/messages_pt_BR.min.js"></script>
+    <!-- Script principal -->
+    <script src="./JS/main.js"></script>
+</body>
+
+</html>
