@@ -1,0 +1,15 @@
+{
+  "name": "m15---sass---ex01",
+  "version": "1.0.0",
+  "description": "Exercicio-SASS",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass source/main.scss build/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MarcosViana",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.63.6"
+  }
+}
